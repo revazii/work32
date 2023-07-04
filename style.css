@@ -1,0 +1,441 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contactbutt {
+  width: 130px;
+  height: 45px;
+  background-color: rgba(19, 65, 236, 1);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+}
+.searchinp {
+  width: 330px;
+  height: 56px;
+  padding-left: 20px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+}
+
+.butt2 {
+  width: 115px;
+  height: 56px;
+  background-color: rgba(19, 65, 236, 1);
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+}
+
+.mapimg {
+  width: 600px;
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .divdiv {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .butt1 {
+    display: flex;
+    justify-content: center !important;
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mapimg {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .searchinp {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .butt2 {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .loremp {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .findh {
+    font-size: 35px;
+  }
+}
+
+.butt1 {
+  display: flex;
+  justify-content: end;
+}
+
+.box2 {
+  width: 98%;
+  height: 560px;
+  background: linear-gradient(rgba(135, 169, 242, 1), rgba(25, 12, 200, 1));
+}
+
+@media only screen and (max-width: 768px) {
+  .box2 {
+    height: 750px;
+  }
+}
+
+.whoh {
+  position: absolute;
+  color: rgba(229, 229, 229, 1);
+  font-size: 68px;
+}
+
+.whos {
+  position: absolute;
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.know {
+  width: 180px;
+  height: 47px;
+  border-radius: 5px;
+  background-color: rgba(19, 65, 236, 1);
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .whoweare {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portrates {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .loremp {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .whos {
+    margin-left: -32%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .whoh {
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .railnear {
+    display: none !important;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rail {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .surfaceair {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .surface {
+    width: 45.5% !important;
+    margin-top: -54.5%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .near {
+    width: 48.5% !important;
+    margin-left: 51%;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .air,
+  .domestic {
+    width: 48.7% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #services {
+    margin-left: 1%;
+  }
+}
+
+.card-1 {
+  height: 490px;
+  border-radius: 17.129px;
+  background: #fff;
+  box-shadow: 0.8564284443855286px 2.5692856311798096px 4.282142162322998px
+    5.138571262359619px rgba(0, 0, 0, 0.25);
+}
+
+.cardarrow {
+  margin-top: 150px !important;
+}
+
+.card1-p {
+  margin-left: 70px;
+  margin-top: 160px;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-1 {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .marry {
+    width: 200px!important;
+    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .marryp {
+    font-size: 10px!important;
+    margin-top:-140px;
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aps1 {
+    width: 25px;
+    margin-left: -16%!important;
+    margin-top: -160px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aps2 {
+    width: 25px;
+    margin-left: 65%!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .stars {
+    margin-left: 12%!important;
+    margin-top: 8px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .marrydiv {
+    margin-left: 19%!important;
+    margin-top: 20px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .marryh {
+    margin-top:5px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .marryp2 {
+    margin-top:-2px!important;
+    margin-left: 1%!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nrnr {
+    visibility: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .left {
+    margin-left: 25%!important;
+    margin-top: 500px!important;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .raight {
+    margin-left: 50%!important;
+    margin-top: 10px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #testi {
+    font-size: 35px!important;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #our {
+    font-size: 20px;
+    text-align: center!important;
+    margin-left: -1%;
+  }
+}
+
+.inp2{
+  background: none;
+  border: solid;
+  color: rgba(242, 242, 242, 1);
+  border: none;
+}
+
+.inputss{
+  margin-top:100px!important;
+}
+
+.letss{
+  margin-top: 155px;
+}
+.locp{
+  font-size: 14px;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: -23px;
+}
+
+@media only screen and (max-width: 768px) {
+  .amam {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .fluidblack {
+    height: 650px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .letss {
+    text-align: center;
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inputss {
+    margin-top: 10px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .foot {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pagesmap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mapss {
+    margin-top: 50px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer1 {
+    height: 900px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inputss {
+    margin-top: 10px!important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .badal{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .lasticons {
+    font-size: 17px!important;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .locp {
+    margin-left: 40px!important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
